@@ -1,0 +1,30 @@
+
+{
+  "name": "node-redis-lua",
+  "description": "Loads multiple Lua scripts to node-redis instances",
+  "version": "1.0.0",
+  "keywords": ["redis","lua"],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "homepage": "https://github.com/piethis/node-redis-lua",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/piethis/node-redis-lua.git"
+  },
+  "author": "Albert Callarisa Roca <albert@acroca.com> (http://acroca.com)",
+  "main": "./redis-lua.js",
+  "files": [
+    "README",
+    "redis-lua.js",
+    "package.json"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  }
+}
