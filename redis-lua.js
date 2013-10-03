@@ -30,7 +30,6 @@
           if (keys_length === 'n') {
             keys_length = args.length;
           }
-          console.log('===> keys_length: ', keys_length);
           return redis.evalsha.apply(redis, [sha, keys_length].concat(__slice.call(args), [function(err, response) {
             return cb(err, response);
           }]));
